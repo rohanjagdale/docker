@@ -15,7 +15,7 @@ pipeline
 				}
 				
 			}
-		}
+		
 		stage ('httpd start')
 		
 			{
@@ -25,7 +25,7 @@ pipeline
 				}
 				
 			}
-		}
+		
 		stage ('deploy index')
 		
 			{
@@ -36,7 +36,7 @@ pipeline
 				}
 				
 			}
-		}
+		
 			
 	}
 	
