@@ -6,7 +6,7 @@ pipeline
 	}
 	stages
 	{
-		stage ('install httpd)
+		stage ('install httpd')
 		
 			{
 				steps
